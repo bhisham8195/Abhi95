@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+h1{
+    text-align: center;
+    color: rgb(10, 7, 7);
+    background-color: green;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: red;
+    color: yellow;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+}
+.abc{
+    display: none;
+}
+ul li:hover .abc{
+    display: block;
+    position: absolute;
+    margin-left: 7.2cm;
+}
+.abc ul li{
+    display: block;
+    display: inline;
+}
+.abc ul{
+    margin: 0;
+    padding: 0;
+}
+.abc ul li{
+    padding: 1px;
+    background-color: rgb(94, 142, 204);
+}
